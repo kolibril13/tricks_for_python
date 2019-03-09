@@ -13,17 +13,19 @@ some useful code snippets for programming with python
 * All about arguments
 * hidden variables
 
-## m1 List and arrays 
+## d1- d5 DATA Types
+ 
+* d1 lists
+    * How to do create lists
+    * using operations
+    * list comprehension  
+* d2 tuples 
+* d3 arrays
+* d4 dicts 
+* d5 stings
+    * How to split stings, how to read data from them 
+* d6 sets
 
-* How to deal with lists and Arrays
-
-**Lists**
-* How to do create lists
-* using operations
-* list comprehension  
-
-**Arrays**
-*  same for array
 
 ## m2 Classes and Inheritance
 
