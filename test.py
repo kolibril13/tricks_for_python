@@ -1,3 +1,6 @@
-import numpy as np
-x=np.ones((3,3))
-print(x)
+while True:
+    try:
+        x= (input())
+        y= int(x)
+    except ValueError:
+        print("nee")

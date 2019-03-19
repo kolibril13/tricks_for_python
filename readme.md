@@ -30,3 +30,6 @@ some useful code snippets for programming with python
 ## m2 Classes and Inheritance
 
 ## m3 Functions and lambda
+
+## p3-7
+* spetial functions of python 3.7
