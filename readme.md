@@ -13,6 +13,22 @@ some useful code snippets for programming with python
 * All about arguments
 * hidden variables
 
+## m1
+error handeling
+
+## m2
+classes and inheritance
+
+## m3
+python intern functions
+
+## m4
+system arguments
+
+## m6
+other libraries
+
+
 ## d1- d5 DATA Types
  
 * d1 lists

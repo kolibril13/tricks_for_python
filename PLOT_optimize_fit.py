@@ -11,7 +11,6 @@ y_noise = 0.2 * np.random.normal(size=xdata.size)
 ydata = y + y_noise
 plt.plot(xdata, ydata, 'b-', label='data')
 
-
 ### here we start the fit
 popt, pcov = curve_fit(func, xdata, ydata)
 

@@ -1,0 +1,11 @@
+#Terminal
+
+open a virtuel envirnoment form the terminal with:
+source /home/jan-hendrik/python/projects/tricks_for_python/venv/bin/activate
+
+Deactivate the virtual environment:
+deactivate
+
+
+# install a kernal for jupyter
+ipython kernel install --user --name=tricks_for_python
