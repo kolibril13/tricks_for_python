@@ -1,5 +1,5 @@
 class Instruments_class:
-    def __init__(self, strings):
+    def __init__(self, stringsz):
         self.strings=  strings
     model = "Fender"
     def Guitar(self):

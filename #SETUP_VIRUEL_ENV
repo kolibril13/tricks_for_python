@@ -1,3 +1,4 @@
+
 #Terminal
 
 open a virtuel envirnoment form the terminal with:
@@ -7,5 +8,28 @@ Deactivate the virtual environment:
 deactivate
 
 
+# list all jupyter kernels:
+jupyter kernelspec list
+# remove a jupyter kernel:
+jupyter kernelspec uninstall unwanted-kernel
+
+
+# ERST IN DIE UMGEBUNG WECHSELN!!!
+
 # install a kernal for jupyter
-ipython kernel install --user --name=tricks_for_python
+source projectname/bin/activate
+pip install ipykernel
+ipython kernel install --user --name=projectname
+
+
+
+
+
+
+# anaconda change to virtuel environment:
+conda info --envs  # list all virtuel environments
+
+conda activate jungle_env # activate a certain virtuel environment
+
+
+

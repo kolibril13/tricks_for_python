@@ -1,5 +1,23 @@
-import numpy as np
-a= np.array([[1,2],
-             [3,4]])
+def repeat(times=2):
+    def repeat_outer(func):
+        def wrapper_inner(*args,**kwargs):
+            for _ in range(0, times):
+                val = func(*args, **kwargs)
+            return val
+        return wrapper_inner
+    return repeat_outer
 
-b= np.concatenate(a, np.ones(3,3))
+
+import functools
+
+
+@functools.lru_cache(maxsize=None)
+def p():
+    print("hello")
+
+p()
+p()
+p()
+p()
+p()
+print(p.cache_info())
