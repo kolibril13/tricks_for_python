@@ -7,30 +7,28 @@ some useful code snippets for programming with python
 ## LAB1
 * advanced tricks
 
-## m0 overall structure
+## m overall structure
 
+### m0 most basic things
 * How to time a program,
 * All about arguments
 * hidden variables
 
-## m1
-error handeling
+### m1 error handeling
 
-## m2
-classes and inheritance
+### m2 classes and inheritance
 
-## m3
-python intern functions
+### m3 python intern functions
 
-## m4
-system arguments
+### m4 system arguments
 
-## m6
-other libraries
+### m5 multiprocessing
+[multiprocessing](m5_multiprocessing_parallel_python.py)
+### m6 dunder methods
 
 
-## d1- d5 DATA Types
- 
+### d1- d5 DATA Types
+[data](d0_all_data_files.py)
 * d1 lists
     * How to do create lists
     * using operations
@@ -43,9 +41,17 @@ other libraries
 * d6 sets
 
 
-## m2 Classes and Inheritance
+## p3.7
+* special functions of python 3.7
+* dataclass operator
 
-## m3 Functions and lambda
+## decotator 
+[decorator](./decorator) all about decorators 
 
-## p3-7
-* spetial functions of python 3.7
+
+## jupyter 
+[jupyter](./jupyter) a small tutorial collection of jupyter notebooks 
+
+
+## Latex 
+[tex](./tex) a small collection of latex templates
