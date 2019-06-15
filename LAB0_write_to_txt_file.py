@@ -15,5 +15,3 @@ with open("LAB0.data", "w") as the_file:
 with open("LAB0.data", "w") as the_file:
     the_file.write(str(matrix))
 
-
-

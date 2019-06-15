@@ -24,7 +24,7 @@ var3= 23.2235345
 s0_b_example = f'Nomal   \t {var3} \n' \
                f'gerundet\t {var3:.3f} \n' \
                f'gerund  \t {var3:.1f} \n' \
-               f'und so  \t {var3:3.4f}' \
+               f'zero padding  \t  {var3:6.1f}' \
 
 print(s0_b_example)
 

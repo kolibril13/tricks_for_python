@@ -5,6 +5,7 @@ Transaction = namedtuple('Transaction', 'date amount')
 
 
 class Account:
+    """small account class"""
 
     def __init__(self, owner, start_balance=0):
         self.owner = owner

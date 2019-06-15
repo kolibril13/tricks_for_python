@@ -1,4 +1,4 @@
-class Restaurant(object):
+class Restaurant:
     bankrupt = False
     def open_branch(self):
         if not self.bankrupt:

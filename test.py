@@ -1,23 +1,17 @@
-def repeat(times=2):
-    def repeat_outer(func):
-        def wrapper_inner(*args,**kwargs):
-            for _ in range(0, times):
-                val = func(*args, **kwargs)
-            return val
-        return wrapper_inner
-    return repeat_outer
+class Ground:
+    def __init__(self, name):
+        self.name= name
+    a=3
+
+class Ext(Ground):
+    b=4
 
 
-import functools
 
 
-@functools.lru_cache(maxsize=None)
-def p():
-    print("hello")
+g= Ground("tim")
+g.name= "otto"
 
-p()
-p()
-p()
-p()
-p()
-print(p.cache_info())
+e= Ext("sören")
+print(g.name)
+print(e.name)
