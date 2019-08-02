@@ -1,3 +1,6 @@
-import timeits
-# Print the execution time
-print(timeit.timeit('[n**2 for n in range(10) if n%2==0]', number=10000))
+import time
+start_time = time.time()
+
+# my code here
+
+print "time elapsed: {:.2f}s".format(time.time() - start_time)

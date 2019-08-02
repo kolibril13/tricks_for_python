@@ -1,0 +1,1 @@
+locate * | grep "search_for_this"

@@ -1,0 +1,1 @@
+def greet_me(first=None, second=None):    print(f"hello {first} {second}")def greet2(*args):    greet_me(*args)greet_me()greet2()

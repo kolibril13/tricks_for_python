@@ -1,17 +1,6 @@
-class Ground:
-    def __init__(self, name):
-        self.name= name
-    a=3
+import matplotlib.pyplot as plt
 
-class Ext(Ground):
-    b=4
+x= [1,2,3,4,5]
 
-
-
-
-g= Ground("tim")
-g.name= "otto"
-
-e= Ext("sören")
-print(g.name)
-print(e.name)
+plt.plot(x, x)
+plt.show()

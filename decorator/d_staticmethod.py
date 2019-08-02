@@ -7,9 +7,8 @@ class Circle:
         return 3.14
 
 c=Circle()
-print(c.pi())
-print(Circle.pi())
-
+print("a",Circle.pi())
+print("b",c.pi())
 
 #nur a
 class Circle:
@@ -17,16 +16,17 @@ class Circle:
         self.radius= radius
     def pi():
         return 3.14
-
-print(Circle.pi())
+c=Circle()
+print("a",Circle.pi())
+#print("b",c.pi())
 
 # nur b
 class Circle:
     def __init__(self, radius=1):
         self.radius = radius
-
     def pi(self):
         return 3.14
 
 c= Circle()
-print(c.pi())
+#print("a",Circle.pi())
+print("b",c.pi())
