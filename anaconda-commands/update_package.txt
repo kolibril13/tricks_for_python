@@ -1,0 +1,11 @@
+pip install --upgrade numpy
+
+
+pip install --force-reinstall scikit-image==0.16.1
+
+
+
+
+# show available versions:
+pip install scikit-image==
+
