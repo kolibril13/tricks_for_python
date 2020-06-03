@@ -15,5 +15,15 @@ amp_array=  get_k_amp_array(z)
 ph_array=   get_k_ph_array(z)
 
 print(amp_array)
+print(amp_array)
 print(ph_array)
 print(np.rad2deg(ph_array))
+
+
+
+
+
+
+
+
+
