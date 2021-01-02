@@ -55,3 +55,38 @@ some useful code snippets for programming with python
 
 ## Latex 
 [tex](./tex) a small collection of latex templates
+
+
+
+
+
+
+# Idee Python Cookbook Physik
+
+Idee siehe [github](https://github.com/kolibril13/physics-exchange).
+Ein paar Ideen:
+* Alltagsanwendungen: Lineare Regression, Funktionen, Sympy, Arrays, weitere Plots, Fehlerrechnung, Physikalischer Calculator
+Plattform-> Github -> limitiert auf markdown, aber ausreichend und schnell Notebooks gemacht,Möglichkeit für "Issue als Fragenstellen"
+Sehr einfache Möglichkeit zur Mitarbeit, dem erstellen eigener Notebooks
+
+
+## Fragen:
+
+* Minimalbeispiele, die kopiert werden, und in der Benutzung erweitert werden
+* oder : Maximalbeispiele, die in der benutzung ausgedünnt werden?
+* Effizienter code, oder einfach zu lesener code?
+* Code Kommentiert? oder unkommentiert?
+-> am liebsten in Markdown drüber kommentiert
+* Auf deutsch oder auf Englisch
+* Alternative mit [*sphinx*](https://scikit-image.org/docs/dev/auto_examples/)?
+
+## Aufbau:
+
+1. Funktionen
+2. Lineare Regressionen
+3. Arrays
+4. Dataframes
+5. Physikalischer Calculator
+6. (Sympy)
+7. (Machine learning?)
+8. Projekt: Hammerfall

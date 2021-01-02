@@ -1,0 +1,10 @@
+fig, ax = plt.subplots(nrows=1, ncols=2, sharey=True , figsize=(16, 5),  dpi=80, facecolor='w',edgecolor='k')
+ax[0].plot(win_values)
+ax[0].set(title='Oszilation', ylabel='Amplitude')
+ax[1].plot(X,abs(ft_values[:N])*2/N)
+ax[1].set(title='Fourier transformed Oszilation', ylabel='Amplitude')
+#ax3.plot(win_values)
+plt.show()
+
+##more info: https://matplotlib.org/gallery/api/power_norm.html#sphx-glr-gallery-api-power-norm-py,
+## https://matplotlib.org/api/_as_gen/matplotlib.pyplot.subplots.html#matplotlib.pyplot.subplots
