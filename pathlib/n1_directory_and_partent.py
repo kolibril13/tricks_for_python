@@ -1,6 +1,4 @@
 from pathlib import Path
-
-from pathlib import Path
 path_to_file = Path(__file__).resolve()
 BASE_DIR = Path(__file__).resolve().parent.parent
 currentWorkingDirectory = Path(__file__).cwd()
